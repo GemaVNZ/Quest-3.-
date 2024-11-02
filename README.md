@@ -1,5 +1,7 @@
 # Way to Paris - Carbon Emission Analysis
 
+![CO2 Emissions GIF](https://media.giphy.com/media/HwvXsuDiQLaiQ/giphy.gif?cid=790b7611c3xqu4e7dnajiwk8i6icygnq9l7wum78bcsn62nk&ep=v1_gifs_search&rid=giphy.gif)
+
 ## Table of Contents 📑
 - [Overview 🌍](#overview)
 - [Installation 🔧](#installation)
@@ -32,13 +34,13 @@ To run this project locally, follow these steps:
 To analyze CO₂ emissions and related data, follow these steps:
 
 1. **Data Preparation**:
-   - Ensure that the necessary CSV files are in the `CSV/` folder:
+   - Ensure that the necessary CSV files are in the `Data CSV/` folder:
      - `data_CodePostal.csv` – Contains data on postal codes.
      - `data_chargesmap.csv` – Contains information on charging station locations.
      - `vehicle_emissions_data.csv` – Contains vehicle emissions data for various models and types.
 
 2. **Running the Notebooks**:
-   - Navigate to the `DataAnalysis and Cleaning/` folder to use the Jupyter Notebooks:
+   - Navigate to the `Data Analysis and Cleaning/` folder to use the Jupyter Notebooks:
      - **Analisis_CO2.ipynb**: Analyzes CO₂ emissions data from various sources.
      - **DataChargeMap.ipynb**: Processes and visualizes data on charging station locations, useful for identifying charging infrastructure coverage.
      - **ProyectoCO2.ipynb**: Main project notebook that integrates multiple data sources and performs comprehensive CO₂ emission analysis.
@@ -75,8 +77,8 @@ To analyze CO₂ emissions and related data, follow these steps:
 - `README.md`: File to describe the project and how to set it up.
  
 ## Data Sources 📊
-- **Carbon Interface API**: (https://www.carboninterface.com/)
-- **Open Charge Map API**: (https://openchargemap.org/)
+- **Carbon Interface API**: [Carbon API Web](https://www.carboninterface.com/)
+- **Open Charge Map API**: [Open Charge API Web](https://openchargemap.org/)
 
 ## Contributing 🤝
 We welcome contributions! Please follow these steps to contribute:
